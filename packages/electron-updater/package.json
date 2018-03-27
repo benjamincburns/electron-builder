@@ -1,13 +1,11 @@
 {
-  "name": "electron-updater",
-  "version": "0.0.0-semantic-release",
-  "description": "Cross platform updater for electron applications",
+  "name": "benjamincburns-forked-electron-updater",
+  "version": "2.21.6",
+  "description": "Cross platform updater for electron applications - forked for use in Truffle projects",
   "main": "out/main.js",
   "author": "Vladimir Krivosheev",
   "license": "MIT",
-  "repository": "electron-userland/electron-builder",
-  "bugs": "https://github.com/electron-userland/electron-builder/issues",
-  "homepage": "https://github.com/electron-userland/electron-builder",
+  "repository": "benjamincburns/electron-builder",
   "files": [
     "out"
   ],
@@ -18,7 +16,7 @@
     "js-yaml": "^3.11.0",
     "semver": "^5.5.0",
     "source-map-support": "^0.5.4",
-    "builder-util-runtime": "~0.0.0-semantic-release",
+    "builder-util-runtime": "^4.2.0",
     "electron-is-dev": "^0.3.0",
     "lodash.isequal": "^4.5.0"
   },
